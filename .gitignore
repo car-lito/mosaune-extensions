@@ -1,0 +1,9 @@
+*.private
+.env
+.env.*
+*.db
+*.db-*
+*.log
+data/
+.DS_Store
+Thumbs.db
