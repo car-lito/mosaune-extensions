@@ -1,30 +1,17 @@
-# Mosaune — extensions
+# Exemple de dépôt de reconnaissance Mosaune
 
-Catalogue officiel des premiers paquets du **Projet Mosaune**, un serveur multimédia personnel en développement.
+Ce dossier peut être publié à la racine d’un dépôt GitHub public. Il contient seulement un catalogue et deux paquets de démonstration, sans compte, secret ou média.
 
-## Utiliser ce catalogue
+Dans Mosaune **0.0.32 ou plus**, ouvrez **Réglages → Extensions → À télécharger → Gérer les dépôts GitHub**. Ajoutez l’URL du dépôt et sa branche si nécessaire. Filtrez par **Reconnaissance des médias**, puis ouvrez la carte de l’exemple.
 
-Dans Mosaune **0.0.21**, ouvrez **Réglages → Extensions → À télécharger**, puis **Charger le catalogue officiel**. Son adresse est déjà intégrée.
+Choisissez d’abord **1.0.0**, vérifiez le paquet et confirmez l’installation. Sa fiche permet ensuite de l’activer et de le choisir pour les scans Films. Testez avec un dossier de copies sans importance : les titres obtenus commencent par « Exemple — ». Le programme reconnaît seulement les `.mkv` et `.mp4`.
 
-Dans Mosaune **0.0.20**, ouvrez **Gérer les dépôts GitHub** et ajoutez **https://github.com/car-lito/mosaune-extensions** en laissant la branche vide.
+Revenez au catalogue pour installer **1.1.0**. Les deux versions ont volontairement le même comportement ; elles permettent d’essayer le cycle de mise à jour et la restauration de la version précédente. Le choix du module et son activation sont conservés.
 
-Ouvrez une carte, vérifiez le paquet et ses accès, puis installez-le. La première installation reste désactivée jusqu’à votre choix. L’actualisation recherche les nouvelles versions sans les installer automatiquement. Le catalogue reste conservé en cas de panne réseau.
+L’identité de l’éditeur n’est pas authentifiée. Le hash du catalogue garantit seulement que le fichier téléchargé correspond à la fiche. Aucune activation, sélection ou mise à jour n’est automatique. Retirer le dépôt conserve les paquets installés ; les retirer se fait depuis leur fiche.
 
-## Paquets
+Pour revenir au comportement habituel, activez puis choisissez **Reconnaissance des films**, le module Mosaune fourni avec le serveur. N’utilisez pas cet exemple pour rescanner votre collection principale.
 
-| Paquet | Versions | Fonction |
-|---|---|---|
-| Ambre | 2.0.0 | Thème clair/sombre déclaratif aux tons papier, ambre et brun. |
-| TMDB | 0.4.0 et 0.4.1 | Recherche et fiches de films, séries et épisodes. |
+Les versions antérieures à 0.0.32 ne connaissent pas le type `recognition` dans un catalogue : publiez cet exemple dans un dépôt ou une branche séparés de leurs catalogues. Les archives elles-mêmes sont importables localement à partir de 0.0.31.
 
-Les deux versions TMDB offrent les mêmes fonctions : elles servent à tester la mise à jour indépendante et la restauration. Si la 0.4.1 est déjà installée, aucune réinstallation n’est nécessaire. TMDB nécessite votre propre clé ou jeton, à saisir dans les réglages de votre serveur. Aucun identifiant de connexion n’est fourni ici.
-
-## Vérifications
-
-`mosaune-repository.json` annonce chaque ZIP, sa version et son SHA-256. Mosaune vérifie les octets et leur manifeste avant installation. Les thèmes ne contiennent pas de programme exécutable. Ce pilote n’accepte que les fournisseurs TMDB portant la signature reconnue du projet ; ajouter un dépôt n’accorde aucun droit à de nouvelles clés.
-
-`provider-package-key.pub` est uniquement la clé publique de vérification. La clé privée n’est pas distribuée. Une signature établit la provenance reconnue du paquet, pas l’absence de bogues. Le dépôt contient les paquets d’extensions, pas le serveur ni les bibliothèques de médias. Mosaune est encore expérimental.
-
-## Composants tiers
-
-Les programmes TMDB sont compilés en WebAssembly avec Go et incluent son runtime et sa bibliothèque standard. Leur notice est conservée dans [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). Les données et images TMDB ne sont pas incluses ici. La licence générale du Projet Mosaune sera précisée lors de la publication de son code source. La licence Go ne s’applique pas à l’ensemble de ce projet.
+Sources, contrat et fabrication : https://github.com/car-lito/mosaune/tree/main/extension-kit/examples/recognition

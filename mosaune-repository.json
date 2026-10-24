@@ -1,39 +1,28 @@
 {
   "schema": 1,
-  "name": "Mosaune — extensions officielles",
+  "name": "Mosaune — exemple de reconnaissance",
   "packages": [
     {
-      "id": "atelier.ambre",
-      "name": "Ambre",
-      "publisher": "Atelier Mosaune — exemple local",
-      "description": "Papier chaud, ambre et brun cinéma. Toutes les rubriques partagent les mêmes réglages ; des exceptions peuvent être déclarées dans sections.",
-      "version": "2.0.0",
-      "kind": "theme",
-      "minCore": "0.0.15",
-      "path": "packages/ambre.mosaune.zip",
-      "sha256": "7523c54e928ce6c696ef3fddbb61ea2c8d720f73befc349019aa9b28b4068969"
+      "id": "example.film-names",
+      "name": "Reconnaisseur de démonstration",
+      "publisher": "Exemple contributeur",
+      "description": "Ajoute le préfixe Exemple aux titres MKV et MP4. À utiliser avec une bibliothèque de test.",
+      "version": "1.0.0",
+      "kind": "recognition",
+      "minCore": "0.0.31",
+      "path": "packages/film-names-1.0.0.mosaune.zip",
+      "sha256": "71da8c328956ffb23a35cb33bbb08bf2182d67d549e3eb5b8934b6f5b2fed786"
     },
     {
-      "id": "mosaune.tmdb-search",
-      "name": "TMDB",
-      "publisher": "Mosaune",
-      "description": "Recherche et fiches de films, séries et épisodes. Programme indépendant du serveur Mosaune.",
-      "version": "0.4.0",
-      "kind": "provider",
-      "minCore": "0.0.19",
-      "path": "packages/tmdb-0.4.0.mosaune.zip",
-      "sha256": "3afd63d3e48c38dc6ee1859566db5a1f3ff1ad98426ab739b3cf0c4544286875"
-    },
-    {
-      "id": "mosaune.tmdb-search",
-      "name": "TMDB",
-      "publisher": "Mosaune",
-      "description": "Recherche et fiches de films, séries et épisodes. Programme indépendant du serveur Mosaune.",
-      "version": "0.4.1",
-      "kind": "provider",
-      "minCore": "0.0.19",
-      "path": "packages/tmdb-0.4.1.mosaune.zip",
-      "sha256": "ce364fbf5566b8fe28cb9a9ec9afe90959e1c9a4b098a5bd56756128b42b29cc"
+      "id": "example.film-names",
+      "name": "Reconnaisseur de démonstration",
+      "publisher": "Exemple contributeur",
+      "description": "Ajoute le préfixe Exemple aux titres MKV et MP4. À utiliser avec une bibliothèque de test.",
+      "version": "1.1.0",
+      "kind": "recognition",
+      "minCore": "0.0.31",
+      "path": "packages/film-names-1.1.0.mosaune.zip",
+      "sha256": "b4bef4b257fa7e7d2c9987acf395d3613f1a819ef723d655ca07882d196552a4"
     }
   ]
 }
