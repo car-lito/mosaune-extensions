@@ -39,7 +39,7 @@
       "id": "mosaune.tmdb-search",
       "name": "TMDB",
       "publisher": "Mosaune",
-      "description": "Recherche, fiches, découverte, suggestions, profils d’acteurs et affiches alternatives. Programme indépendant du serveur Mosaune.",
+      "description": "Recherche, fiches, découverte, profils et affiches alternatives de films et séries. Programme indépendant du serveur Mosaune.",
       "version": "0.5.0",
       "kind": "provider",
       "minCore": "0.0.43",
