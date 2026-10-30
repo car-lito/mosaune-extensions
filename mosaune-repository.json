@@ -34,6 +34,17 @@
       "minCore": "0.0.19",
       "path": "packages/tmdb-0.4.1.mosaune.zip",
       "sha256": "ce364fbf5566b8fe28cb9a9ec9afe90959e1c9a4b098a5bd56756128b42b29cc"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche, fiches, découverte, suggestions, profils d’acteurs et affiches alternatives. Programme indépendant du serveur Mosaune.",
+      "version": "0.5.0",
+      "kind": "provider",
+      "minCore": "0.0.43",
+      "path": "packages/tmdb-0.5.0.mosaune.zip",
+      "sha256": "5f49cdc6429c3873ea0a584882f2309441b3b012f2277654c424e42c52957b32"
     }
   ]
 }
