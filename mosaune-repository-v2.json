@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "name": "Mosaune — extensions officielles",
+  "packages": [
+    {
+      "id": "atelier.ambre",
+      "name": "Ambre",
+      "publisher": "Atelier Mosaune — exemple local",
+      "description": "Papier chaud, ambre et brun cinéma. Toutes les rubriques partagent les mêmes réglages ; des exceptions peuvent être déclarées dans sections.",
+      "version": "2.0.0",
+      "kind": "theme",
+      "minCore": "0.0.15",
+      "path": "packages/ambre.mosaune.zip",
+      "sha256": "7523c54e928ce6c696ef3fddbb61ea2c8d720f73befc349019aa9b28b4068969"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche et fiches de films, séries et épisodes. Programme indépendant du serveur Mosaune.",
+      "version": "0.4.0",
+      "kind": "provider",
+      "minCore": "0.0.19",
+      "path": "packages/tmdb-0.4.0.mosaune.zip",
+      "sha256": "3afd63d3e48c38dc6ee1859566db5a1f3ff1ad98426ab739b3cf0c4544286875"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche et fiches de films, séries et épisodes. Programme indépendant du serveur Mosaune.",
+      "version": "0.4.1",
+      "kind": "provider",
+      "minCore": "0.0.19",
+      "path": "packages/tmdb-0.4.1.mosaune.zip",
+      "sha256": "ce364fbf5566b8fe28cb9a9ec9afe90959e1c9a4b098a5bd56756128b42b29cc"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche, fiches, découverte, profils et affiches alternatives de films et séries. Programme indépendant du serveur Mosaune.",
+      "version": "0.5.0",
+      "kind": "provider",
+      "minCore": "0.0.43",
+      "path": "packages/tmdb-0.5.0.mosaune.zip",
+      "sha256": "5f49cdc6429c3873ea0a584882f2309441b3b012f2277654c424e42c52957b32"
+    },
+    {
+      "id": "org.mosaune.examples.family.films",
+      "name": "Famille Films · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.0.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-films-2.0.0.zip",
+      "sha256": "c2c60ed618149ccc754e57d6b2be5cdbfda5c9b5a980602ce6c564399e7cf8ea"
+    },
+    {
+      "id": "org.mosaune.examples.family.films",
+      "name": "Famille Films · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.1.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-films-2.1.0.zip",
+      "sha256": "63f9a00192005c9066729845a8bc13ee6b0faf8db110e44a490f70a8fc2f349d"
+    },
+    {
+      "id": "org.mosaune.examples.family.series",
+      "name": "Famille Séries · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.0.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-series-2.0.0.zip",
+      "sha256": "80ba381a0fe13225801bf2faeeedccc75fd6af3875ef3ae0464535e0d0fb251a"
+    },
+    {
+      "id": "org.mosaune.examples.family.series",
+      "name": "Famille Séries · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.1.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-series-2.1.0.zip",
+      "sha256": "e45a022896562c09cf3d95263c7dd005d413721277e5c0deb7870a0399176718"
+    },
+    {
+      "id": "org.mosaune.examples.family.music",
+      "name": "Famille Musique · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.0.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-music-2.0.0.zip",
+      "sha256": "de6150ead9c58f6cafde2f9b74693fa94e10f9fb04a6d3c22f12b205cb0698cf"
+    },
+    {
+      "id": "org.mosaune.examples.family.music",
+      "name": "Famille Musique · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "2.1.0",
+      "kind": "family",
+      "minCore": "0.0.47",
+      "path": "packages/family-music-2.1.0.zip",
+      "sha256": "41e7513888b8b386d3eb02bbed9cd32d55e1e29c828c5240b28bf8a95de2bd86"
+    }
+  ]
+}
