@@ -386,6 +386,17 @@
       "minCore": "0.0.55",
       "path": "packages/family-music-6.1.0.zip",
       "sha256": "10d57e5d09c1971c649270eab343d4d58e794c74756a3eb20f35637409f55048"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche, fiches, découverte, profils et affiches de films et séries. La langue des fiches, le pays des sorties et les sources réseau sont déclarés par le paquet signé.",
+      "version": "0.7.0",
+      "kind": "provider",
+      "minCore": "0.0.57",
+      "path": "packages/tmdb-0.7.0.mosaune.zip",
+      "sha256": "ec5d6b39d161d8612155ba7c38b0d280beddf4ab2bd558f483a3dbdc6201f67f"
     }
   ]
 }
