@@ -727,6 +727,72 @@
       "minCore": "0.0.62",
       "path": "packages/family-music-11.1.0.zip",
       "sha256": "c907c17b84a387e7d2c05c2e4fc336572340eb1ef941588962d17a26044be2a4"
+    },
+    {
+      "id": "org.mosaune.examples.family.films",
+      "name": "Famille Films · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.0.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-films-12.0.0.zip",
+      "sha256": "9f549000723580448c203086cc345849b4790a87e81e833a1a21b2f80fc9c819"
+    },
+    {
+      "id": "org.mosaune.examples.family.films",
+      "name": "Famille Films · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.1.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-films-12.1.0.zip",
+      "sha256": "d6ce8dd5a4b77479f057660f0d60dce805db0c829dc97611605b995ce7ba391a"
+    },
+    {
+      "id": "org.mosaune.examples.family.series",
+      "name": "Famille Séries · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.0.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-series-12.0.0.zip",
+      "sha256": "a22ce4354da10de23e8efbf04aa4a8f909fa74f3f6c6f49c2a678ea4b5649b2a"
+    },
+    {
+      "id": "org.mosaune.examples.family.series",
+      "name": "Famille Séries · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.1.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-series-12.1.0.zip",
+      "sha256": "f5a4af95b854ba7cada0cf9437931dd284d205f3d07b771f8e025d38692e549d"
+    },
+    {
+      "id": "org.mosaune.examples.family.music",
+      "name": "Famille Musique · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.0.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-music-12.0.0.zip",
+      "sha256": "71595e69d595fc5e677b2ba8f4a5fc70b8cd02ad83546ff6044e80c02434dc43"
+    },
+    {
+      "id": "org.mosaune.examples.family.music",
+      "name": "Famille Musique · exemple",
+      "publisher": "Mosaune · exemple local",
+      "description": "",
+      "version": "12.1.0",
+      "kind": "family",
+      "minCore": "0.0.63",
+      "path": "packages/family-music-12.1.0.zip",
+      "sha256": "2da72a2d9d50ee23bf4f18bcc1b87fdeb1a00db55ae2edaa5feea5177eaa71fc"
     }
   ]
 }
