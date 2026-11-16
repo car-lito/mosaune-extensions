@@ -67,6 +67,17 @@
       "minCore": "0.0.57",
       "path": "packages/tmdb-0.7.0.mosaune.zip",
       "sha256": "ec5d6b39d161d8612155ba7c38b0d280beddf4ab2bd558f483a3dbdc6201f67f"
+    },
+    {
+      "id": "mosaune.tmdb-search",
+      "name": "TMDB",
+      "publisher": "Mosaune",
+      "description": "Recherche, fiches, découverte, profils et affiches de films et séries. Correspondances des identifiants externes, langue, pays et sources réseau déclarés par le paquet signé.",
+      "version": "0.8.0",
+      "kind": "provider",
+      "minCore": "0.0.71",
+      "path": "packages/tmdb-0.8.0.mosaune.zip",
+      "sha256": "f3c6d8d26dff8cca5523f084a66d92641ee6bee2c0525c8ad9d20e5280baa070"
     }
   ]
 }
